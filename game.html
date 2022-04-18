@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Challenge Chapter 4</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo_size_invert.jpg" />
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <img class="back" src="/assets/Return.png" alt="return"/>
+        </a>
+        <img class="logo" src="/assets/logo.png" alt="logo">
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+
+    <!-- Player Section -->
+    <section class="game-container">
+        <div class="player">
+            <h1>PLAYER</h1>
+            <div class="player1" name="choices">
+                <button class="batu">
+                    <img src="/assets/batu.png" alt="Rock">
+                </button>
+                <button class="kertas">
+                    <img src="/assets/kertas.png" height="150px" width="90px" alt="Paper">
+                </button>
+                <button class="gunting">
+                    <img src="/assets/gunting.png" height="160px" width="105px" alt="Scissors">
+                </button>
+            </div>
+        </div>
+
+        <!-- Result Section -->
+        <div class="info">
+            <div class="result" id="result" name="result">
+                <h3>VS</h3>
+            </div>
+            <div class="refresh">
+                <img src="/assets/refresh.png" alt="refresh">
+            </div>
+        </div>
+
+        <!-- Computer Section -->
+        <div class="computer" id="computer" name="computer">
+            <h1>COMPUTER</h1>
+            <ul class="computer1">
+                <li class="batucom">
+                    <img src="/assets/batu.png" alt="Rock">
+                </li>
+                <li class="kertascom">
+                    <img src="/assets/kertas.png" height="150px" width="90px" alt="Paper">
+                </li>
+                <li class="guntingcom">
+                    <img src="/assets/gunting.png" height="160px" width="105px" alt="Scissors">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="/js/game.js"></script>
+</body>
+</html>
